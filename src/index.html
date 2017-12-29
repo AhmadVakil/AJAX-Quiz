@@ -1,0 +1,121 @@
+<!DOCTYPE html>	
+<html   xmlns="http://www.w3.org/1999/xhtml"
+        xmlns:og="http://ogp.me/ns#"
+        xmlns:fb="https://www.facebook.com/2008/fbml">
+
+    <!-- I have already created this HTML file for my last project, and now I am going to keep this template and css link as my main theme
+    I am going to creat ajax restful api to show you how you can commiunicate with server to GET and POST your data without refreshing the 
+    page -->
+
+    <head>
+                    <title>Quiz</title>
+                    <meta property="og:url"           content="https://1dv525.github.io/av222gx-examination-2/index.html" />
+                    <meta property="og:type"          content="website" />
+                    <meta property="og:title"         content="Welcome to quiz" />
+                    <meta property="og:description"   content="AJAX RESTful API using JavaScript" />
+                    <meta property="og:image"         content="http://www.goldenrural.org/wp-content/uploads/2016/04/internet.jpg" />
+                    <meta charset="utf-8">
+                    <link rel="stylesheet" type="text/css" href="css\style.css">
+    </head>
+            
+
+    <header>
+            <div id="head">
+                    <div id="header">
+                    </div> 
+            </div>
+    </header>
+
+    
+    <body id="bodyPart">
+            <section>
+                    <p id="quotes"></p>
+            </section>
+
+            <section>
+           
+                    <section class="posts">
+                                    
+                            <article id="blogArticle">
+                                            <h3 id="questions-part"></h3>
+                                            
+                                            <section > 
+                                                <!--Good looking button with hover and animated effect, check css file-->
+                                                <br>
+                                                    <p id="answers-part"></p> 
+                                                    
+                                                    
+                                                    <br>
+                                                    <div>
+                                                                <input id="txtField" type="text" name="firstname" >
+                                                               
+                                                        <form id="alternatives">
+                                                                <input id="alt1" type="radio" name="options" value="alt1"> 
+                                                                <label id="alt1TEXT"></label><br>
+
+                                                                <input id="alt2" type="radio" name="options" value="alt2"> 
+                                                                <label id="alt2TEXT"></label><br>
+
+                                                                <input id="alt3" type="radio" name="options" value="alt3" >  
+                                                                <label id="alt3TEXT"></label><br>
+
+                                                                <input id="alt4" type="radio" name="options" value="alt4" > 
+                                                                <label id="alt4TEXT"></label><br>
+                                                             
+                                                        </form>
+                                                        
+                                                    </div>
+                                                   
+                                                <button class="button" id="start"><span id="button-name"></span></button>
+                                                <p id="tips"></p>
+                                                <section class="blogAside">
+                                                                
+                                                                                            <section> 
+                                                                                               <span id="time-part"></span>  
+                                                                                               <span id="seconds"></span>          
+                                                                                            </section>
+                                                                
+                                                </section>
+
+                                            </section>
+
+                                            <section>
+                                                <p id="note-part">
+                                                </p>
+                                            </section>
+
+                                            <section>
+                                                        <p id="records">
+                                                               <h4 id="Scores">Scores and Total Time:<br></h4>
+                                                               <h5 id="total"></h5>
+                                                               <h5 id="allTimes"></h5>
+                                                               <h5 id="titleR">Last User Who Played:</h5>
+                                                               <h5 id="userName"></h5>
+                                                               <h5>Top Five Fastest Answers:</h5>
+                                                               <h5 id="fastestTimes"></h5>
+                                                               <h5 id="oneHTML"></h5>
+                                                               <h5 id="twoHTML"></h5>
+                                                               <h5 id="threeHTML"></h5>
+                                                               <h5 id="fourHTML"></h5>
+                                                               <h5 id="fiveHTML"></h5>
+                                                               <button class="clearButton" id="webStorageButton"><span id="webStorageClearButton">Delete Web Storage Records!</span></button>
+                                                        </p>
+                                          </section>
+                                            
+                            <!-- Open graph for easy sharing on social media networks, I used facebook as an example-->    
+                            <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2F1dv525.github.io%2Fav222gx-examination-1%2Fblog.html&layout=button_count&size=small&mobile_iframe=true&width=69&height=20&appId" width="69" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                            </article>
+
+                            <!-- I do not need any more article here , and I need a section above to create my XMLhttpRequest and retrieve the data that I want from the server-->
+            </section>       
+                    
+                    <section>
+                            <footer>
+                                    <p id="page-footer"> </p>     
+                            </footer>
+                    </section>        
+                    <script src="js/app.js"></script>
+                    <script src="js/AJAX.js"></script>
+                    <script src="js/Second-Counter.js"></script>
+    </body>
+</html>
