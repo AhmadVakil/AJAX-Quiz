@@ -1,13 +1,13 @@
-# av222gx-examination-2
-Examination assignment 2 for Ahmadreza Vakilalroayayi, NS2015
+# AJAX Quiz
 
-## Examination assignment 2
-This is the assignment repo for the second assignment in the course. 
+An asynchronous web application that fetch questions from the server and present them to user.
 
-## Installation
-Make sure node.js and npm is installed on your system.
+## Requirements
+- Node.js
+- NPM
 
+## Run
 1. `npm install`
 2. `npm start`
-3. Browse to [http://localhost:4000](http://localhost:4000)
+3. Web app is running at [http://localhost:4000](http://localhost:4000)
 
